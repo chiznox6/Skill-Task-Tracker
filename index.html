@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skill-Task</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <button id="toggle-dark">🌙 Toggle Dark/Light Mode</button>
+    <h1>Skill-Task Tracker</h1>
+    <p>Track your development journey in one place</p>
+  </header>
+
+  <main>
+    <!-- Developer Profile Section -->
+    <section class="profile">
+      <h2>Developer Profile</h2>
+      <div id="profile-card">
+        <img id="profile-image" src="https://i.pravatar.cc/100" alt="Dev Photo" />
+        <div>
+          <h3 id="profile-name">James Dev</h3>
+          <p id="profile-bio">A passionate full-stack developer focused on frontend & UX.</p>
+          <p><strong>Skills:</strong> <span id="profile-skills">HTML, CSS, JavaScript</span></p>
+        </div>
+      </div>
+
+      <form id="profile-form">
+        <h3>Edit Profile</h3>
+        <input type="text" id="edit-name" placeholder="Your Name" required />
+        <input type="text" id="edit-bio" placeholder="Your Bio" required />
+        <input type="text" id="edit-skills" placeholder="Skills (comma-separated)" required />
+        <input type="url" id="edit-image" placeholder="Image URL" />
+        <label for="edit-image-file">OR Upload Photo:</label>
+        <input type="file" id="edit-image-file" accept="image/*" />
+        <button type="submit">Update Profile</button>
+        <p id="profile-message"></p>
+      </form>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+      <h2>Projects</h2>
+      <form id="project-form">
+        <input type="text" name="title" placeholder="Project Title" required />
+        <textarea name="description" placeholder="Description" required></textarea>
+        <input type="text" name="tech" placeholder="Technologies (e.g., HTML, JS)" required />
+        <input type="url" name="link" placeholder="Live Link or GitHub URL" required />
+        <button type="submit">Add Project</button>
+      </form>
+      <ul id="project-list"></ul>
+    </section>
+
+    <!-- Tasks Section -->
+    <section class="tasks">
+      <h2>Daily Tasks</h2>
+      <form id="task-form">
+        <input type="text" placeholder="New Task" required />
+        <button type="submit">Add Task</button>
+      </form>
+      <ul id="task-list"></ul>
+    </section>
+
+    <!-- Notes Section -->
+    <section class="notes">
+      <h2>Learning Notes</h2>
+      <form id="note-form">
+        <textarea placeholder="Write a new note..." required></textarea>
+        <button type="submit">Save Note</button>
+      </form>
+      <ul id="note-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Skill-Task Tracker by James Dev</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
