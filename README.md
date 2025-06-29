@@ -25,7 +25,7 @@ This project was created to meet all the criteria of the **Phase 1 Individual Pr
 
 ## Screenshots
 
-![Skill-Task Dashboard UI](https://via.placeholder.com/1000x400?text=Skill-Task+Dashboard+Screenshot)
+![Skill-Task Dashboard UI] (https://github.com/chiznox6/Skill-Task-Tracker/blob/master/assets/project-ui.png)
 
 
 
@@ -55,7 +55,7 @@ Smooth animations and transitions
  Clone this repository
 
    ```bash
-   git clone https://github.com/your-username/skill-task-tracker.git
+   git clone https://github.com/chiznox6/Skill-Task-Tracker.git
    cd skill-task-tracker
 
 ## Prerequisites
