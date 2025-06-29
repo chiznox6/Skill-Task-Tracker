@@ -44,10 +44,15 @@ Smooth animations and transitions
 
 ## Technologies Used
 
-- HTML5
-- CSS3 (Grid, Flexbox, Custom Themes)
-- JavaScript (ES6+, DOM, Events)
-- JSON Server (for mock API interaction)
+ HTML
+ CSS (Grid, Flexbox, Custom Themes)
+ JavaScript ( DOM, Events)
+ JSON Server (for mock API interaction)
+
+ ## 📽 Project Presentation
+
+You can [download the presentation slides here](./assets/skill-task-projectpresentation.odp).
+
 
 
 ##  Getting Started
