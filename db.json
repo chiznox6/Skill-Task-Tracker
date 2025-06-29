@@ -50,6 +50,13 @@
       "description": "Personal Developer Portfolio Website",
       "tech": "HTML, CSS, JavaScript",
       "link": "https://github.com/jamesdev/portfolio"
+    },
+    {
+      "id": "c6bd",
+      "title": "Novel blog review",
+      "description": "this is a web page that allows users to update and post blogs",
+      "tech": "html, css ,javascript ,json",
+      "link": "https://github.com/chiznox6/blog-post-manager.git"
     }
   ],
   "tasks": [
@@ -77,6 +84,11 @@
       "id": "5",
       "task": "Test note form submission",
       "completed": true
+    },
+    {
+      "id": "8ceb",
+      "task": "update novel reviews",
+      "completed": false
     }
   ],
   "notes": [
