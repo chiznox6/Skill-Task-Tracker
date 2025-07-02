@@ -1,4 +1,4 @@
-# 🚀 Skill-Task Tracker
+#  Skill-Task Tracker
 
 A colorful, responsive, and interactive Single Page Application (SPA) that allows developers to manage their profile, projects, daily tasks, and learning notes — all in one place. Built with HTML, CSS, and JavaScript, and connected to a local JSON server API.
 
@@ -20,7 +20,7 @@ Add and manage portfolio projects
 Track learning tasks or goals
 Document and review learning notes
 
-This project was created to meet all the criteria of the **Phase 1 Individual Project** and demonstrates full CRUD functionality, DOM manipulation, and asynchronous interaction with an API — all in a polished, professional, and user-friendly single-page interface.
+This project was created to meet all the criteria of the **Phase 1 Individual Project** and demonstrates full CRUD functionality, DOM manipulation, and asynchronous interaction with an API — all in a polished, and user-friendly single-page interface.
 
 
 ## Screenshots
@@ -31,23 +31,37 @@ This project was created to meet all the criteria of the **Phase 1 Individual Pr
 
 ## Features
 
- Developer Profile section (editable name, bio, skills, image)
-Project Portfolio Manager (add/view project cards)
- Daily Task Tracker (add/check-off tasks)
-Learning Notes section (add/remove notes)
-Colorful section themes (green, indigo, violet, blue)
-Dark Mode with toggle & local storage persistence
- Fully responsive layout for mobile/tablet/desktop
-Smooth animations and transitions
- Smart DOM updates via event listeners
- JSON Server API ready (for full CRUD functionality)
+  Developer Profile  
+ Profile Editing with Photo Upload / URL  
+ Projects Portfolio (CRUD)  
+ Daily Task Tracker (CRUD)  
+ Learning Notes Section (CRUD)  
+ Dark/Light Mode Toggle  
+ Responsive Layout with Thematic Colors  
+ Local JSON Server Integration
+
 
 ## Technologies Used
 
  HTML
- CSS (Grid, Flexbox, Custom Themes)
+ CSS 
  JavaScript ( DOM, Events)
  JSON Server (for mock API interaction)
+
+
+
+## Folder Structure
+
+skill-task/
+│
+├── index.html              # Main HTML structure
+├── style.css               # All styles and responsive theming
+├── index.js                # JavaScript logic (fetch, DOM, events)
+├── db.json                 # Mock backend API (JSON Server)
+├── assets/
+│   └── project-ui.png      # Screenshots or presentation
+└── Skill-Task-Presentation.odp  # Slide presentation 
+
 
  ## 📽 Project Presentation
 
